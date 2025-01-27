@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="script.js"></script>
+    <title>Task 2</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" id="name" onblur="validateName()"></td>
+                <td><div id="nameError"></div></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" id="email" onblur="validateEmail()"></td>
+                <td><div id="emailError" ></div></td>
+            </tr>
+            <tr>
+                <td><input type ="submit" onclick ="return validate()"></td>
+            </tr>
+        </table>
+    </form>
+    
+    
+    
+</body>
+</html>

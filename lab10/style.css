@@ -1,0 +1,21 @@
+table {
+    background-color: antiquewhite;
+}
+
+td {
+	border: 1px solid #0d0202;
+}
+
+button{
+    padding: 25px;
+	width: 100%;
+	height: 40px;
+    background-color: rgb(9, 207, 45);
+    text-align: center;
+}
+
+input{
+  padding:10px;
+
+    color: aliceblue;
+}
